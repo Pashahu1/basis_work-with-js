@@ -344,8 +344,41 @@
 //   ? console.log('hihihih') 
 //   : console.log('hi')
 
-const names = 'ben'
+// const names = 'ben'
 
-const age = (names === 'ben' && names !== 'jon') ? 18 : 20; 
+// const age = (names === 'ben' && names !== 'jon') ? 18 : 20; -пример работы с несколькими условиями
 
-console.log(age)
+// console.log(age)
+
+// const hordeCastel = 'Oldereon';
+// const alilensCastel = 'Stormgrad';
+// const hordArmy = [2000,70000];
+// const alilensArmy = [1000,60000];
+
+// const dateBase = {
+//   armyHorde: 70000,
+//   armyAlliens: 60000,
+//   castelHord: 'Oldereon',
+//   castelAlliens: 'Oldereon'
+// };
+
+// if (hordArmy[1] >= dateBase.armyAlliens && dateBase.castelHord === hordeCastel) {
+//   console.log('war started')
+// }
+// else {
+//   console.log('war doest start')
+// }
+
+// hordArmy[1] >= dateBase.armyAlliens
+// && dateBase.castelHord === hordeCastel
+// ? console.log('war started')
+// : console.log('war doesent start')
+
+// switch (hordeCastel) {
+//   case 'Oldereon': {
+//       console.log('war started')
+//     break;
+//   }
+ 
+//   default: 'end war'
+// }
