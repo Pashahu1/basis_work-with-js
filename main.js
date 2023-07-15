@@ -434,3 +434,103 @@
 //   // }
 //   console.log(arr[i])
 // }
+
+                                                                    // Повторение образование великих наций
+
+const obj = {
+  race: {
+    people: ['Bretonia', 'Imperia', 'lihtenshtein'],
+    orcs: ['Greenskins', 'Whiteskins', 'Blackskins'],
+  },
+  lade: {
+    Bretonia: 'Ulrik',
+    Imperia: 'Karl-Frans',
+    lihtenshtein: 'Fridrik',
+    Greenskins: 'Grimbor',
+    Whiteskins: 'Ajag',
+    Blackskins: 'Gombul'
+  },
+  army: {
+    Bretonia: 20000,
+    Imperia: 80000,
+    lihtenshtein: 10000,
+    Greenskins: 90000,
+    Whiteskins: 30000, 
+    Blackskins: 10000,
+  }
+}
+
+const bretoniaLade = 'Ulrik';
+const imperiaLade = 'Karl-Frans';
+const lihtenshteinLade = 'Fridrik';
+const greenskinsLade = 'Grimbor';
+const whiteskinsLade = 'Ajag';
+const blackskinsLade = 'Gombul';
+const bretoniaArmy = 20000;
+const imperiaArmy = 50000;
+const lihtenshteinArmy = 10000;
+const greenskinsArmy = 40000;
+const whiteskinsArmy = 30000;
+const blackskinsArmy = 10000;
+const countryPeople = ['Bretonia', 'Imperia', 'lihtenshtein'];
+const raceOrcs = ['Greenskins', 'Whiteskins', 'Blackskins'];
+
+if (bretoniaLade === obj.lade.Bretonia && bretoniaArmy === obj.army.Bretonia) {
+  console.log('Start Mobilisation in Bretonia')
+} else {
+  console.log ('Revolution')
+}
+if (lihtenshteinLade === obj.lade.lihtenshtein && lihtenshteinArmy === obj.army.lihtenshtein) {
+  console.log('Start Mobilisation in lihtenshtein')
+} else {
+  console.log ('Revolution')
+}
+if (imperiaLade === obj.lade.Imperia 
+  && imperiaArmy <= obj.army.Imperia 
+  && bretoniaLade === obj.lade.Bretonia 
+  && lihtenshteinLade === obj.lade.lihtenshtein) {
+  console.log ('Confediration formed with all free people Aliens')
+} else {
+  console.log('Karl loses credibility')
+}
+if (greenskinsArmy <= obj.army.Greenskins 
+  && greenskinsLade === obj.lade.Greenskins 
+  && whiteskinsLade === obj.lade.Whiteskins 
+  && blackskinsLade === obj.lade.Blackskins) {
+  console.log ('confedration with all orcs in th old pace Horn')
+} else {
+  console.log('Greate War betwen orcs')
+}
+if (150000 + 10000 + 20000 >= 100000) {
+  console.log('Great Aliense armie ready to war')
+} else {
+  console.log('Mobilisation continue')
+}
+if (90000 + 30000 + 10000 >= 100000) {
+  console.log ('Great Horn rady to war')
+} else {
+  console.log('Surge continues')
+}
+if (obj.race.people[0] === countryPeople[0] 
+  && obj.race.people[1] === countryPeople[1]
+  && obj.race.people[2] === countryPeople[2] 
+  && obj.race.orcs[0] === raceOrcs[0] 
+  && obj.race.orcs[1] === raceOrcs[1] 
+  && obj.race.orcs[2] === raceOrcs[2]) {
+    console.log ('Great war Bigining')
+  } else {
+    console.log('strife subsides')
+  }
+
+
+
+// const arr = [11,22,333,224,14,33,55,66]
+
+// for(let i = 0; i < arr.length; i++) {
+//   if(arr[i] === 14) {
+//     continue;
+//   }
+
+//   console.log(arr[i])
+// }
+// console.log('end')
