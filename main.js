@@ -437,90 +437,90 @@
 
                                                                     // Повторение образование великих наций
 
-const obj = {
-  race: {
-    people: ['Bretonia', 'Imperia', 'lihtenshtein'],
-    orcs: ['Greenskins', 'Whiteskins', 'Blackskins'],
-  },
-  lade: {
-    Bretonia: 'Ulrik',
-    Imperia: 'Karl-Frans',
-    lihtenshtein: 'Fridrik',
-    Greenskins: 'Grimbor',
-    Whiteskins: 'Ajag',
-    Blackskins: 'Gombul'
-  },
-  army: {
-    Bretonia: 20000,
-    Imperia: 80000,
-    lihtenshtein: 10000,
-    Greenskins: 90000,
-    Whiteskins: 30000, 
-    Blackskins: 10000,
-  }
-}
+// const obj = {
+//   race: {
+//     people: ['Bretonia', 'Imperia', 'lihtenshtein'],
+//     orcs: ['Greenskins', 'Whiteskins', 'Blackskins'],
+//   },
+//   lade: {
+//     Bretonia: 'Ulrik',
+//     Imperia: 'Karl-Frans',
+//     lihtenshtein: 'Fridrik',
+//     Greenskins: 'Grimbor',
+//     Whiteskins: 'Ajag',
+//     Blackskins: 'Gombul'
+//   },
+//   army: {
+//     Bretonia: 20000,
+//     Imperia: 80000,
+//     lihtenshtein: 10000,
+//     Greenskins: 90000,
+//     Whiteskins: 30000, 
+//     Blackskins: 10000,
+//   }
+// }
 
-const bretoniaLade = 'Ulrik';
-const imperiaLade = 'Karl-Frans';
-const lihtenshteinLade = 'Fridrik';
-const greenskinsLade = 'Grimbor';
-const whiteskinsLade = 'Ajag';
-const blackskinsLade = 'Gombul';
-const bretoniaArmy = 20000;
-const imperiaArmy = 50000;
-const lihtenshteinArmy = 10000;
-const greenskinsArmy = 40000;
-const whiteskinsArmy = 30000;
-const blackskinsArmy = 10000;
-const countryPeople = ['Bretonia', 'Imperia', 'lihtenshtein'];
-const raceOrcs = ['Greenskins', 'Whiteskins', 'Blackskins'];
+// const bretoniaLade = 'Ulrik';
+// const imperiaLade = 'Karl-Frans';
+// const lihtenshteinLade = 'Fridrik';
+// const greenskinsLade = 'Grimbor';
+// const whiteskinsLade = 'Ajag';
+// const blackskinsLade = 'Gombul';
+// const bretoniaArmy = 20000;
+// const imperiaArmy = 50000;
+// const lihtenshteinArmy = 10000;
+// const greenskinsArmy = 40000;
+// const whiteskinsArmy = 30000;
+// const blackskinsArmy = 10000;
+// const countryPeople = ['Bretonia', 'Imperia', 'lihtenshtein'];
+// const raceOrcs = ['Greenskins', 'Whiteskins', 'Blackskins'];
 
-if (bretoniaLade === obj.lade.Bretonia && bretoniaArmy === obj.army.Bretonia) {
-  console.log('Start Mobilisation in Bretonia')
-} else {
-  console.log ('Revolution')
-}
-if (lihtenshteinLade === obj.lade.lihtenshtein && lihtenshteinArmy === obj.army.lihtenshtein) {
-  console.log('Start Mobilisation in lihtenshtein')
-} else {
-  console.log ('Revolution')
-}
-if (imperiaLade === obj.lade.Imperia 
-  && imperiaArmy <= obj.army.Imperia 
-  && bretoniaLade === obj.lade.Bretonia 
-  && lihtenshteinLade === obj.lade.lihtenshtein) {
-  console.log ('Confediration formed with all free people Aliens')
-} else {
-  console.log('Karl loses credibility')
-}
-if (greenskinsArmy <= obj.army.Greenskins 
-  && greenskinsLade === obj.lade.Greenskins 
-  && whiteskinsLade === obj.lade.Whiteskins 
-  && blackskinsLade === obj.lade.Blackskins) {
-  console.log ('confedration with all orcs in th old pace Horn')
-} else {
-  console.log('Greate War betwen orcs')
-}
-if (150000 + 10000 + 20000 >= 100000) {
-  console.log('Great Aliense armie ready to war')
-} else {
-  console.log('Mobilisation continue')
-}
-if (90000 + 30000 + 10000 >= 100000) {
-  console.log ('Great Horn rady to war')
-} else {
-  console.log('Surge continues')
-}
-if (obj.race.people[0] === countryPeople[0] 
-  && obj.race.people[1] === countryPeople[1]
-  && obj.race.people[2] === countryPeople[2] 
-  && obj.race.orcs[0] === raceOrcs[0] 
-  && obj.race.orcs[1] === raceOrcs[1] 
-  && obj.race.orcs[2] === raceOrcs[2]) {
-    console.log ('Great war Bigining')
-  } else {
-    console.log('strife subsides')
-  }
+// if (bretoniaLade === obj.lade.Bretonia && bretoniaArmy === obj.army.Bretonia) {
+//   console.log('Start Mobilisation in Bretonia')
+// } else {
+//   console.log ('Revolution')
+// }
+// if (lihtenshteinLade === obj.lade.lihtenshtein && lihtenshteinArmy === obj.army.lihtenshtein) {
+//   console.log('Start Mobilisation in lihtenshtein')
+// } else {
+//   console.log ('Revolution')
+// }
+// if (imperiaLade === obj.lade.Imperia 
+//   && imperiaArmy <= obj.army.Imperia 
+//   && bretoniaLade === obj.lade.Bretonia 
+//   && lihtenshteinLade === obj.lade.lihtenshtein) {
+//   console.log ('Confediration formed with all free people Aliens')
+// } else {
+//   console.log('Karl loses credibility')
+// }
+// if (greenskinsArmy <= obj.army.Greenskins 
+//   && greenskinsLade === obj.lade.Greenskins 
+//   && whiteskinsLade === obj.lade.Whiteskins 
+//   && blackskinsLade === obj.lade.Blackskins) {
+//   console.log ('confedration with all orcs in th old pace Horn')
+// } else {
+//   console.log('Greate War betwen orcs')
+// }
+// if (150000 + 10000 + 20000 >= 100000) {
+//   console.log('Great Aliense armie ready to war')
+// } else {
+//   console.log('Mobilisation continue')
+// }
+// if (90000 + 30000 + 10000 >= 100000) {
+//   console.log ('Great Horn rady to war')
+// } else {
+//   console.log('Surge continues')
+// }
+// if (obj.race.people[0] === countryPeople[0] 
+//   && obj.race.people[1] === countryPeople[1]
+//   && obj.race.people[2] === countryPeople[2] 
+//   && obj.race.orcs[0] === raceOrcs[0] 
+//   && obj.race.orcs[1] === raceOrcs[1] 
+//   && obj.race.orcs[2] === raceOrcs[2]) {
+//     console.log ('Great war Bigining')
+//   } else {
+//     console.log('strife subsides')
+//   }
 
 
 
@@ -534,3 +534,159 @@ if (obj.race.people[0] === countryPeople[0]
 //   console.log(arr[i])
 // }
 // console.log('end')
+
+// const x1 = 42; //decimal - десяткова систеема числення(використовється частіше за все)
+
+// const x2 = 0b101010; //binary - двійкова система числкння(краще використовувати коли у нас є якійсь критерії)
+// const x3 = 0o52; // octal -восьмирічна(рідко виекорист)
+// const x4 = 0x2A;// hxadeecimal 16-річна система 
+// const x5 = 0x2a; // hxadeecimal 16-річна система (для неї немає різниці що використовувати чи великі чи малі літери)
+
+// console.log(x1,x2,x3,x4,x5);
+
+// let y1 = 42.000; // значення в сотих
+// let y2 = 42.;  // такеж значення в сотих або в десяткових але без 0-в
+
+// // Значення в десяткових
+
+// let y3 = 0.42e2; // 0.42 * (10 ** 2) === 42
+// // e2 = (10**2)
+// let y4 = .42e2; // такий самий степінь але без 0
+
+// let y5 = 42000e-3; // тут 42000 / (10**3) === 42,в данном коді e-3 = / (10 ** 3) тобто степінь бде ділитися на 42000
+
+// console.log(y1, y2, y3, y4, y5);
+
+// на практиці частіше використовуються десяткові або дробові
+
+// const x1 = 42;
+// let y1 = 42.000;
+// let y2 = 42.;
+
+// const decimal = 111;
+// // 327 = 3 * 100 + 2 * 10 + 7 * 1(приклад) 111 + 10 + 1,числа множаться на степінь
+// const binary = 0b111; // може бти лише 0 або 1
+// // 111 = 1 * 4 + 1 * 2 + 1 * 1 тут 111 = 2 -степені бо тому що значення 111 том на 1 меньше тому так
+// //2 * 2 = 4 - перший ступень
+// //1 * 1 = 1 - другий стпень
+// const hex = 0x111;
+// // 111 = 1 * 256 + 1 * 16 + 1 * 1
+// // 16 * 16 = 256,
+// //16 * 1 = 16
+// //1 * 1 = 16
+// const hxadeecimal = 0x2A  //A,a - це цифра 10,і тд тобто слова в цьому прикладі = цифрам від 10 - 15
+// // 2 * 16 + 10 * 1 = 42
+// console.log(`decimal 111 ${decimal.toString(10)}`)
+// console.log(`binary 111 ${binary.toString(2)}`)
+// console.log(`decimal 111 ${hex.toString(16)}`)
+// console.log(`decimal 111 ${hxadeecimal}`)
+// toString конвертує цифри
+
+// Оператори пріорітети
+
+// const x = 10 % (2 ** 3) // пріорітет оператора ** буде вищим тому виконується піднесення а потім вже ділення),тому до буудь якого пріоритету хоч це матемматика шкільна  потрібно ставити() на пріорітетні оператори
+// console.log(x);
+
+// Коли виникає Nan та Infinity:
+
+// infinity - виникає коли я ділю якесь скінченне число на 0
+// let x = 10 / 0
+// console.log(x);
+// -Infinity - те саме але зі значеннями мінус
+// let x = -10 / 0
+// console.log(x);
+// -Infinity - коли число порівнюють з -infinity воно буде більше ніж -infinity
+// Infinity коли число порівнюють з infinity воно буде більше ніж аніж будь яке число
+// let x = -Infinity
+// console.log(x < 100); -true
+
+// let y = Infinity
+// console.log(y < 100); -false
+
+// console.log(Number.MAX_VALUE * 2) - задає наймаксимальніще число якщо число буде быльше за заначенну максимальність то буде infinity
+// console.log(Number.MAX_SAFE_INTEGER + 100) - задає наймаксимальніще ціле число з  яким можна ще працювати але стандарти заохочують використовувати лише зазначене максимальне число
+
+//  NAN - коли я ділю нескінченне на нескінченне
+// let x = 0 / 0;
+// console.log(x)
+
+// тип данних BigInt
+// він дозволяє працювати з великими числовими данними
+// console.log(34424234132414142314n) -ось так пишеться BigInt звичайні числа поєднвати не можна він працює лише зі своїми значеннями  на кінці якийх n
+
+// Метод isFinit
+
+// let x = 123;
+// console.log(isFinite(x)); -робить буудь яке число скынченним
+
+// Як перетворити строку в число 
+
+// 1)Number.value
+// 2)+value перетворить в число 123.4+,123,(123.5f не перетворить)
+// 3)parseInt(value, 16) перетворить в бдьяке ціле число приклад 123412 1234 (123.4 - не перетворить) також він має 2-спосіб вирахунку значення
+// 4)parseFloat(value) перетворить в дробову частину 2323.1 231312.312 312132312.3213
+
+// Кржне перетворення з бууулена робить такий резльтат false = 0 true = 1, але parse буде виводити Nan
+
+
+
+
+// const myBin = 0b1010;
+// // Значение "0b1010" = 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 0 * 2^0
+// // Значение "0b1010" = 8 + 0 + 2 + 0
+// // Значение "0b1010" = 10
+// const myOct = 0o24;
+// // "0o24" = 2 * 8 + 4 = 16 + 4 = 20
+// const myDec = 0x1e;
+// // "0x1e" = 1 * 16 + 14 = 16 + 14 = 30
+// const myHex = 0x28;
+// // Значение "0x28" = 2 * 16^1 + 8 * 16^0
+// // Значение "0x28" = 2 * 16 + 8 * 1
+// // Значение "0x28" = 32 + 8
+// // Значение "0x28" = 40
+
+// console.log(myBin)
+// console.log(myOct)
+// console.log(myDec)
+// console.log(myHex)
+
+// const h = 245
+// 245 = 2 * (10 ** 2) + 4 * (10 ** 1) + 5 * (10 ** 0)= 245, (10 ** 0) = 1
+// 200 + 40 + 5
+// const x = 0x73
+// шістнадцятковій
+// 7 * (16 ** 1) + 3 * (16 ** 0) = 3
+// console.log(h);
+// console.log(x);
+// console.log(this); - виведе widow
+
+// Math 
+
+let x = 12.50
+
+// console.log(Math.floor(x)) -  окрглює до низу
+// console.log(Math.ceil(x)) - окрглює до гори
+// console.log(Math.trunc(x)) -  прибирає (дробов част)та окрглює за кф
+// console.log(Math.round(x)) - округлює до найближч'го цілого
+// console.log(+x.toFixed(x)) - виконує спочатк перевірку модуля числа округлення як мат
+
+// щоб відкинyти нулі можна зробити так
+// Math.round(x * 100) / 100; використовується більше для цін (round)
+// або
+// +x.toFixed(2) - використовується більше для цін(toFixed)
+// ceil(для округлення століття)
+
+// for (let i = 0; i < 10; i++) {
+//   const x = getRandomNumber(2, 7); // значення від якого до якого але 7 ніколи не будуть траплятися бо  така  формла  але якщо додати + 1 то 7 бд траплятися
+
+//   console.log(x);
+// }
+
+// function getRandomNumber(min, max) {
+//   // return min + Math.random() * (max + 1 - min);//[min, max]
+//   return Math.floor (
+//     min + Math.random() * (max + 1 - min)
+//   ) // за допомогою окрглення  можна генервати цілі рандомні числа
+// }
+
+
